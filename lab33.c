@@ -18,3 +18,5 @@ int main()
 	printf("Net bill %f",nbill);
 	return 0;
 }
+
+
