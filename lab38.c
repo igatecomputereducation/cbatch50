@@ -19,3 +19,6 @@ int main()
 		printf("Not a palindrome number");
 	return 0;
 }
+
+
+
