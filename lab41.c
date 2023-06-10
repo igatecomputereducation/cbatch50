@@ -13,6 +13,5 @@ int main()
 	}
 	else
 		printf("Not equals");
-	
 	return 0;
 }
