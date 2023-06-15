@@ -1,11 +1,16 @@
 #include<stdio.h>
 int main()
 {
-	int a,b,c;
-	a=40<80 || 20<=30 && 60!=20;
-	b=60!=60 && 40<80 || 30>20;
-	c=10==10 && 10==15;
-	printf("%i\n%i\n%i",a,b,c);
+	if(10!=10)
+		printf("one\n");
+	else if(40<=80)
+		printf("two\n");
+	else if(60>=20)
+		printf("three\n");
+	else if(50>=100)
+		printf("four\n");
+	else
+		printf("hello");
 	return 0;
 }
 
