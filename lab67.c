@@ -18,5 +18,6 @@ int main()
 		printf("Space");
 	else
 		printf("Symbol");
+		
 	return 0;
 }
