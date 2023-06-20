@@ -1,16 +1,21 @@
 #include<stdio.h>
 int main()
 {
-	if(10!=10)
-		printf("one\n");
-	else if(40<=80)
-		printf("two\n");
-	else if(60>=20)
-		printf("three\n");
-	else if(50>=100)
-		printf("four\n");
-	else
-		printf("hello");
+	int x=20;
+	switch(x+10)
+	{
+		case 20:
+			printf("one\n");
+			break;
+		case 30:
+			printf("two\n");
+			break;
+		case 50:
+			printf("three\n");
+			break;
+		default:
+			printf("four");
+	}
 	return 0;
 }
 
