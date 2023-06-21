@@ -42,8 +42,8 @@ int main()
 			printf("One hundred");
 	}
 	
-	
-	printf(" and ");
+	if(se!=0 || th!=0)
+		printf(" and ");
 	
 	switch(se)
 	{
@@ -72,44 +72,77 @@ int main()
 			printf("twenty");
 			break;
 		case 1:
-			printf("ten");
-			break;
-			
+			switch(th)
+			{
+				case 0:
+					printf("ten");
+					break;
+				case 1:
+					printf("eleven");
+					break;
+				case 2:
+					printf("twelve");
+					break;
+				case 3:
+					printf("thirteen");
+					break;
+				case 4:
+					printf("fourteen");
+					break;
+				case 5:
+					printf("fifteen");
+					break;
+				case 6:
+					printf("sixteen");
+					break;
+				case 7:
+					printf("seventeen");
+					break;
+				case 8:
+					printf("eighteen");
+					break;
+				case 9:
+					printf("nineteen");
+					break;
+			}
 	}
+	
 	
 	printf(" ");
 	
-	switch(th)
+	if(se!=1)
 	{
-		case 9:
-			printf("nine");
-			break;
-		case 8:
-			printf("eight");
-			break;
-		case 7:
-			printf("seven");
-			break;
-		case 6:
-			printf("six");
-			break;
-		case 5:
-			printf("five");
-			break;
-		case 4:
-			printf("four");
-			break;
-		case 3:
-			printf("three");
-			break;
-		case 2:
-			printf("two");
-			break;
-		case 1:
-			printf("one");
-			break;
+		switch(th)
+		{
+			case 9:
+				printf("nine");
+				break;
+			case 8:
+				printf("eight");
+				break;
+			case 7:
+				printf("seven");
+				break;
+			case 6:
+				printf("six");
+				break;
+			case 5:
+				printf("five");
+				break;
+			case 4:
+				printf("four");
+				break;
+			case 3:
+				printf("three");
+				break;
+			case 2:
+				printf("two");
+				break;
+			case 1:
+				printf("one");
+				break;
+		}
 	}
-	
 	
 	return 0;
 }
