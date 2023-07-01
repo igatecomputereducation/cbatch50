@@ -1,12 +1,17 @@
 #include<stdio.h>
 int main()
 {
-	int x=1;
-	igate:
-		printf("%i\n",x);
-		x=x+1;
-	if(x<=5)
-		goto igate;
+	int i;
+	
+	i=1;
+	while(1)
+	{
+		printf("%i\n",i);
+		if(i==5)
+			break;
+		i++;
+	}
+	
 	return 0;
 }
 

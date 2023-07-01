@@ -15,7 +15,6 @@ int main()
 			count=count+1;
 	}
 	
-	
 	if(count==0)
 		printf("No existed");
 	else
