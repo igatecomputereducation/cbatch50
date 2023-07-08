@@ -1,17 +1,9 @@
 #include<stdio.h>
 int main()
 {
-	int i;
-	
-	i=1;
-	while(1)
-	{
-		printf("%i\n",i);
-		if(i==5)
-			break;
-		i++;
-	}
-	
+	int a,b,c;
+	a=10;
+	printf("%i\t%i\t%i",c=++b,b=a++,--a);
 	return 0;
 }
 
