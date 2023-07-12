@@ -19,6 +19,5 @@ int main()
 	}
 	printf("sum of even elements %i\n",esum);
 	printf("Sum of odd elements %i",osum);
-	
 	return 0;
 }
