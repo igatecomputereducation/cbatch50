@@ -1,9 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	int a,b,c;
-	a=10;
-	printf("%i\t%i\t%i",c=++b,b=a++,--a);
+	int x,y,z;
+	x=0b1101;
+	y=0b1110;
+	z=x+y;
+	printf("%d",z);
 	return 0;
 }
-
