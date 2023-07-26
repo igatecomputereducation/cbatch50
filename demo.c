@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-	int x,y,z;
-	x=0b1101;
-	y=0b1110;
+	float x,y,z;
+	x=4525E-2;
+	y=2352E-2;
 	z=x+y;
-	printf("%d",z);
+	printf("%e",z);
 	return 0;
 }
